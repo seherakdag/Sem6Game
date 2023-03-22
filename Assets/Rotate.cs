@@ -23,9 +23,9 @@ public class Rotate : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //if (coroutineAllowed)
-       // {
-          //  StartCoroutine("RotateWheelCoroutine");
-       // }
+        // {
+        //  StartCoroutine("RotateWheelCoroutine");
+        // }
 
     }
 
@@ -38,9 +38,9 @@ public class Rotate : MonoBehaviour
     {
         coroutineAllowed = false;
 
-        for (int i = 0; i <= 11; i++)
+        for (int i = 0; i < 16; i++)
         {
-            transform.Rotate(22.5f, 0f, 0f);
+            transform.Rotate(1.40625f, 0f, 0f);
             yield return new WaitForSeconds(0.01f);
 
         }
