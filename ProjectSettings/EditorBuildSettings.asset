@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Deck.unity
+    guid: d654590954e81424c872478f2c3c3b39
+  - enabled: 1
+    path: Assets/Scenes/BelowDeck.unity
+    guid: 5f56797017c425e48919325d23fdca4e
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 4d3e1c0cba81d4f8a9513c7e61ba48aa,
       type: 2}
