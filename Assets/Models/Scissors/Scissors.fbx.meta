@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 509490b5f75584d81a4b92b3d46afc0f
+guid: 468e23efd8b884eb09e7e7c6f6a6ead5
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: a7c6fb90c3c3145fab8584a67d0b386e, type: 2}
+      name: Scissors
+    second: {fileID: 2100000, guid: eb70287e122c14f9484157fda7ac938e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scissors 2
+    second: {fileID: 2100000, guid: 58c2aa38a657941c386be8bcbe32e72f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

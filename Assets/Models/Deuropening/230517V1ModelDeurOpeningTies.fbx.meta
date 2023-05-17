@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 509490b5f75584d81a4b92b3d46afc0f
+guid: 4e342a2cd12584f8a86fa1fd89bf3d59
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: a7c6fb90c3c3145fab8584a67d0b386e, type: 2}
+      name: DeurOpening
+    second: {fileID: 2100000, guid: 17c6463439fa34393bec2a6139de86b7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

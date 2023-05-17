@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 509490b5f75584d81a4b92b3d46afc0f
+guid: 9b3710fec8e39470aa7dd68d902c13a0
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: a7c6fb90c3c3145fab8584a67d0b386e, type: 2}
+      name: Blade
+    second: {fileID: 2100000, guid: 731720ad04b954156bbbbc94d1b0573e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blade Detail
+    second: {fileID: 2100000, guid: 1ec586c75207f44a0b3f5d7bd0b77a6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle
+    second: {fileID: 2100000, guid: 17f0389077c5f4f3682d7349ec1d6e91, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
