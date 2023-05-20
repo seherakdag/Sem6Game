@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class lockControl : MonoBehaviour
 {
+    public string sceneToLoad;
     private int[] result, correctCombination;
     private void Start()
     {
@@ -38,6 +40,7 @@ public class lockControl : MonoBehaviour
         if (result[0] == correctCombination[0] && result[1] == correctCombination[1] && result[2] == correctCombination[2] && result[3] == correctCombination[3])
         {
             Debug.Log("Opened");
+            SceneManager.LoadScene(sceneToLoad);
         }
 
     }
