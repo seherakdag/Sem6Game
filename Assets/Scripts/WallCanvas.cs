@@ -3,11 +3,10 @@ using UnityEngine.UI;
 
 public class WallCanvas : MonoBehaviour
 {
-    public Image[] mapPieceImages; // Array of UI images representing map pieces on the wall
+    public Image[] mapPieceImages; 
 
     private void Start()
     {
-        // Subscribe to the onMapPieceAcquired event in the MapPieceManager script
         MapScript.instance.onMapPieceAcquired.AddListener(UpdateMapPiecesOnWall);
         UpdateMapPiecesOnWall();
     }
@@ -19,8 +18,6 @@ public class WallCanvas : MonoBehaviour
             if (mapPieceImages[i] != null)
             {
                 bool isAcquired = MapScript.instance.IsMapPieceAcquired(i);
-
-                // Update the visibility or appearance of the map piece image on the wall based on its acquired status
                 mapPieceImages[i].gameObject.SetActive(isAcquired);
             }
          

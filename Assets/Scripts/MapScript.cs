@@ -5,10 +5,8 @@ using UnityEngine.UI;
 
 public class MapScript : MonoBehaviour
 {
-    public static MapScript instance; // Singleton instance of the MapPieceManager
-    public UnityEvent onMapPieceAcquired; // Event triggered when a new map piece is acquired
-
-    // List to store acquired map pieces
+    public static MapScript instance; 
+    public UnityEvent onMapPieceAcquired;
     private bool[] acquiredMapPieces;
 
     private void Awake()
