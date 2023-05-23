@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Glas
+    second: {fileID: 2100000, guid: c2239c7c75181b34fbc93010a8d26eab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Houder
     second: {fileID: 2100000, guid: 82746628744a48246b7ca602cb97da7a, type: 2}
   - first:
