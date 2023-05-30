@@ -15,7 +15,22 @@ ModelImporter:
   - first:
       74: -4566005201292188417
     second: OCTO RIG|SunAction
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 7417acf6151f34c9eadc7059eac079c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 025f34658a9c146e5960b2b3c7d22621, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 025f34658a9c146e5960b2b3c7d22621, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
