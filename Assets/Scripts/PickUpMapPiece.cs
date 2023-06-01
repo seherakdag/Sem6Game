@@ -6,6 +6,6 @@ public class PickUpMapPiece : MonoBehaviour
 {
     public void PickUp(int index)
     {
-        MapScript.instance.AcquireMapPiece(index);
+        Progression.instance.AcquireMapPiece(index);
     }
 }

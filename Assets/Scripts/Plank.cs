@@ -14,8 +14,17 @@ public class Plank : MonoBehaviour
         {
             door.onBreakPlank(this);
             Destroy(gameObject);
-            particleSystemBreak.Play();
-            audioSource.Play();
+
+            if (particleSystemBreak)
+            {
+                particleSystemBreak.Play();
+            }
+
+            if (audioSource)
+            {
+                audioSource.Play();
+            }
+            
         }
     }
 }

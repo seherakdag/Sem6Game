@@ -7,7 +7,7 @@ public class WallCanvas : MonoBehaviour
 
     private void Start()
     {
-        MapScript.instance.onMapPieceAcquired.AddListener(UpdateMapPiecesOnWall);
+        Progression.instance.onMapPieceAcquired.AddListener(UpdateMapPiecesOnWall);
         UpdateMapPiecesOnWall();
     }
 
@@ -17,7 +17,7 @@ public class WallCanvas : MonoBehaviour
         {
             if (mapPieceImages[i] != null)
             {
-                bool isAcquired = MapScript.instance.IsMapPieceAcquired(i);
+                bool isAcquired = Progression.instance.IsMapPieceAcquired(i);
                 mapPieceImages[i].gameObject.SetActive(isAcquired);
             }
          
