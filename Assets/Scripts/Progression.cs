@@ -9,6 +9,7 @@ public class Progression : MonoBehaviour
     public UnityEvent onMapPieceAcquired;
     private bool[] acquiredMapPieces;
     private bool isPlankBroken;
+    private bool isTentacleMoved;
 
     private void Awake()
     {
@@ -49,5 +50,15 @@ public class Progression : MonoBehaviour
     public bool IsPlankBroken()
     {
         return isPlankBroken;
+    }
+
+    public void MoveTentacle()
+    {
+        isTentacleMoved = true;
+    }
+
+    public bool IsTentacleMoved()
+    {
+        return isTentacleMoved;
     }
 }
