@@ -9432,6 +9432,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3147046079069214407, guid: a6317832d146f244693d8fa0bcefcd02,
         type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147046079069214407, guid: a6317832d146f244693d8fa0bcefcd02,
+        type: 3}
       propertyPath: simulationSpeed
       value: 0.5
       objectReference: {fileID: 0}
