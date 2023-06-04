@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.006074458, g: 0.0062284595, b: 0.013844803, a: 1}
+  m_IndirectSpecularColor: {r: 0.006111441, g: 0.006230602, b: 0.013882455, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2743,9 +2743,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030370750}
-  m_LocalRotation: {x: -0, y: 0.656107, z: -0, w: 0.7546679}
-  m_LocalPosition: {x: -1.23622, y: 0.9830334, z: 0.07987023}
-  m_LocalScale: {x: 2.0915606, y: 2.0915606, z: 2.0915606}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.8196622, y: 1.689981, z: 0.2509873}
+  m_LocalScale: {x: 2.0915604, y: 2.0915608, z: 2.0915604}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1137244425}
@@ -4229,7 +4229,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e6f09d4dc8ff64ac29cae18ff854b32b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.3
+      value: 10.06
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e6f09d4dc8ff64ac29cae18ff854b32b,
         type: 3}
@@ -4239,7 +4239,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e6f09d4dc8ff64ac29cae18ff854b32b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 62.6
+      value: 61.92
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e6f09d4dc8ff64ac29cae18ff854b32b,
         type: 3}
@@ -6147,27 +6147,27 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0f9f1bd6380334115b6bf2f805262f9f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.7
+      value: 1.843
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f9f1bd6380334115b6bf2f805262f9f,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7546679
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f9f1bd6380334115b6bf2f805262f9f,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f9f1bd6380334115b6bf2f805262f9f,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.656107
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f9f1bd6380334115b6bf2f805262f9f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f9f1bd6380334115b6bf2f805262f9f,
         type: 3}
@@ -6177,7 +6177,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0f9f1bd6380334115b6bf2f805262f9f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -82.007
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f9f1bd6380334115b6bf2f805262f9f,
         type: 3}
@@ -6202,6 +6202,32 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1949793495}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1949793497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0f9f1bd6380334115b6bf2f805262f9f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1949793495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1949793498
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949793497}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6037e9d7d54ae1149858aba9711039e3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1970027635
 MeshCollider:
   m_ObjectHideFlags: 0

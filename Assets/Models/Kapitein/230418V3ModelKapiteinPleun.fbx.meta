@@ -1,20 +1,8 @@
 fileFormatVersion: 2
-guid: abbb5c0e671974b57a5d8c7887e0459d
+guid: d96ec08fa5c05fd4fb4d323a97d114b1
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
-  - first:
-      74: 3997614985018663949
-    second: Armature|Grab
-  - first:
-      74: -1662346245629514813
-    second: Armature|Pointing
-  - first:
-      74: 6838567996013101305
-    second: Armature|Relaxed
-  - first:
-      74: 7265069703587596183
-    second: Armature|Pointing (1)
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -101,7 +89,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Armature
+    rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
@@ -109,7 +97,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
