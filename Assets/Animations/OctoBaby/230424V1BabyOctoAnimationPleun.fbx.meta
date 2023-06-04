@@ -9,7 +9,12 @@ ModelImporter:
   - first:
       74: -2382795055912782974
     second: Armature|Plane.001Action
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes.001
+    second: {fileID: 2100000, guid: b7ab2106d007844b1990ac0c3c2fe9e0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
