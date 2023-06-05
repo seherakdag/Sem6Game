@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class PickUpMapPiece : MonoBehaviour
 {
-    public void PickUp(int index)
+    public int indexPiece;
+    private void Start()
     {
-        Progression.instance.AcquireMapPiece(index);
+        if (Progression.instance.IsMapPieceAcquired(indexPiece))
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void PickUp()
+    {
+        Progression.instance.AcquireMapPiece(indexPiece);
     }
 }
