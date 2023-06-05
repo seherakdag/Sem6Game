@@ -6,7 +6,12 @@ ModelImporter:
   - first:
       74: -497572188842189981
     second: OCTO RIG|OCTO RIGAction
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 025f34658a9c146e5960b2b3c7d22621, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -7,6 +7,7 @@ public class lockControl : MonoBehaviour
 {
     public string sceneToLoad;
     private int[] result, correctCombination;
+    public AudioSource audioSource;
     private void Start()
     {
         result = new int[] { 1, 1, 1, 1};
@@ -41,6 +42,7 @@ public class lockControl : MonoBehaviour
         {
             Debug.Log("Opened");
             SceneManager.LoadScene(sceneToLoad);
+            audioSource.Play();
         }
 
     }
